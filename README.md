@@ -35,11 +35,11 @@
      - Límite de almacenamiento local.
 
 6. **Alertas y notificaciones**
-   - El sistema debe generar alertas locales si algún sensor detecta valores fuera de rango predefinido.
+   - El sistema debe generar alertas si algún sensor detecta valores fuera de rango predefinido.
    - Debe ser posible configurar los umbrales de alerta para cada sensor.
 
 7. **Monitorización en tiempo real**
-   - Debe permitir la visualización en tiempo real de los datos capturados a través de una interfaz gráfica local o remota (web o aplicación).
+   - Debe permitir la visualización en tiempo real de los datos capturados a través de una interfaz gráfica remota.
 
 8. **Autodiagnóstico**
    - El sistema debe verificar periódicamente el estado de los sensores y notificar errores de conexión o mal funcionamiento.
@@ -47,7 +47,7 @@
 ### **Requisitos No Funcionales**
 
 1. **Rendimiento**
-   - El sistema debe ser capaz de procesar y enviar los datos de los seis sensores con un retraso máximo de 1 segundo después de la captura.
+   - El sistema debe ser capaz de procesar y enviar los datos de los seis sensores con un retraso máximo establecido después de la captura.
 
 2. **Escalabilidad**
    - El diseño debe permitir la adición de nuevos sensores en el futuro sin cambios significativos en el sistema.
@@ -58,17 +58,10 @@
 4. **Confiabilidad**
    - Debe garantizar una tasa de operación correcta de al menos el 95% durante un período de 30 días sin reinicio manual.
 
-5. **Interfaz de usuario**
-   - Debe ser amigable y accesible desde dispositivos móviles y computadoras.
-   - Debe ser posible realizar la configuración inicial a través de un menú simple.
-
-6. **Eficiencia energética**
-   - El sistema debe optimizar el consumo de energía, permitiendo modos de bajo consumo durante períodos de inactividad.
-
-7. **Compatibilidad**
+5. **Compatibilidad**
    - El sistema debe ser compatible con al menos un sistema operativo de servidor estándar (e.g., Ubuntu Server).
 
-8. **Mantenimiento**
+6. **Mantenimiento**
    - Los componentes del sistema deben ser fácilmente reemplazables o actualizables.
 
 ### **Pila tecnológica**
