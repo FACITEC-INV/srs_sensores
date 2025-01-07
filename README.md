@@ -13,68 +13,68 @@
 ### *Requisitos Funcionales*
 
 1. **Adquisición de datos**
-  - El sistema debe capturar datos de los seis sensores: oxígeno disuelto, turbidez, conductividad, total de sólidos disueltos, pH y temperatura.
-  - Los datos deben ser recogidos con una frecuencia configurable por el usuario (e.g., cada minuto, hora, o día).
+   - El sistema debe capturar datos de los seis sensores: oxígeno disuelto, turbidez, conductividad, total de sólidos disueltos, pH y temperatura.
+   - Los datos deben ser recogidos con una frecuencia configurable por el usuario (e.g., cada minuto, hora, o día).
 
 2. **Procesamiento de datos**
-  - La Raspberry Pi debe procesar los datos recibidos desde el Arduino y organizarlos en un formato estructurado (e.g., JSON, CSV).
-  - Debe incluir la marca de tiempo asociada a cada medición.
+   - La Raspberry Pi debe procesar los datos recibidos desde el Arduino y organizarlos en un formato estructurado (e.g., JSON, CSV).
+   - Debe incluir la marca de tiempo asociada a cada medición.
 
 3. **Almacenamiento local**
-  - Los datos deben ser almacenados temporalmente en la Raspberry Pi en caso de que no haya conexión con el servidor remoto.
-  - Se debe gestionar un límite de almacenamiento local configurable.
+   - Los datos deben ser almacenados temporalmente en la Raspberry Pi en caso de que no haya conexión con el servidor remoto.
+   - Se debe gestionar un límite de almacenamiento local configurable.
 
 4. **Envío de datos al servidor**
-  - El sistema debe enviar los datos recopilados al servidor remoto utilizando un protocolo estándar (e.g., HTTP/HTTPS, MQTT).
-  - El envío debe ser periódico y garantizar la integridad de los datos.
+   - El sistema debe enviar los datos recopilados al servidor remoto utilizando un protocolo estándar (e.g., HTTP/HTTPS, MQTT).
+   - El envío debe ser periódico y garantizar la integridad de los datos.
 
 5. **Configuración del sistema**
-  - El sistema debe permitir configurar los siguientes parámetros:
-    - Frecuencia de captura de datos.
-    - Dirección del servidor remoto y protocolo de comunicación.
-    - Límite de almacenamiento local.
+   - El sistema debe permitir configurar los siguientes parámetros:
+     - Frecuencia de captura de datos.
+     - Dirección del servidor remoto y protocolo de comunicación.
+     - Límite de almacenamiento local.
 
 6. **Alertas y notificaciones**
-  - El sistema debe generar alertas locales si algún sensor detecta valores fuera de rango predefinido.
-  - Debe ser posible configurar los umbrales de alerta para cada sensor.
+   - El sistema debe generar alertas locales si algún sensor detecta valores fuera de rango predefinido.
+   - Debe ser posible configurar los umbrales de alerta para cada sensor.
 
 7. **Monitorización en tiempo real**
-  - Debe permitir la visualización en tiempo real de los datos capturados a través de una interfaz gráfica local o remota (web o aplicación).
+   - Debe permitir la visualización en tiempo real de los datos capturados a través de una interfaz gráfica local o remota (web o aplicación).
 
 8. **Autodiagnóstico**
-  - El sistema debe verificar periódicamente el estado de los sensores y notificar errores de conexión o mal funcionamiento.
+   - El sistema debe verificar periódicamente el estado de los sensores y notificar errores de conexión o mal funcionamiento.
 
 ### **Requisitos No Funcionales**
 
 1. **Rendimiento**
-  - El sistema debe ser capaz de procesar y enviar los datos de los seis sensores con un retraso máximo de 1 segundo después de la captura.
+   - El sistema debe ser capaz de procesar y enviar los datos de los seis sensores con un retraso máximo de 1 segundo después de la captura.
 
 2. **Escalabilidad**
-  - El diseño debe permitir la adición de nuevos sensores en el futuro sin cambios significativos en el sistema.
+   - El diseño debe permitir la adición de nuevos sensores en el futuro sin cambios significativos en el sistema.
 
 3. **Seguridad**
-  - La comunicación entre la Raspberry Pi y el servidor debe estar protegida mediante encriptación (e.g., TLS para HTTPS o cifrado en MQTT).
+   - La comunicación entre la Raspberry Pi y el servidor debe estar protegida mediante encriptación (e.g., TLS para HTTPS o cifrado en MQTT).
 
 4. **Confiabilidad**
-  - Debe garantizar una tasa de operación correcta de al menos el 95% durante un período de 30 días sin reinicio manual.
+   - Debe garantizar una tasa de operación correcta de al menos el 95% durante un período de 30 días sin reinicio manual.
 
 5. **Interfaz de usuario**
-  - Debe ser amigable y accesible desde dispositivos móviles y computadoras.
-  - Debe ser posible realizar la configuración inicial a través de un menú simple.
+   - Debe ser amigable y accesible desde dispositivos móviles y computadoras.
+   - Debe ser posible realizar la configuración inicial a través de un menú simple.
 
 6. **Eficiencia energética**
-  - El sistema debe optimizar el consumo de energía, permitiendo modos de bajo consumo durante períodos de inactividad.
+   - El sistema debe optimizar el consumo de energía, permitiendo modos de bajo consumo durante períodos de inactividad.
 
 7. **Compatibilidad**
-  - El sistema debe ser compatible con al menos un sistema operativo de servidor estándar (e.g., Ubuntu Server).
+   - El sistema debe ser compatible con al menos un sistema operativo de servidor estándar (e.g., Ubuntu Server).
 
 8. **Mantenimiento**
-  - Los componentes del sistema deben ser fácilmente reemplazables o actualizables.
+   - Los componentes del sistema deben ser fácilmente reemplazables o actualizables.
 
 ### **Pila tecnológica**
 1. **Hardware**
-- ...
+   - ...
 
 2. **Software**
-- ...
+   - ...
 
