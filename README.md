@@ -33,6 +33,7 @@
      - Frecuencia de captura de datos.
      - Dirección del servidor remoto y protocolo de comunicación.
      - Límite de almacenamiento local.
+     - Umbrales de alerta para cada sensor.
 
 6. **Alertas y notificaciones**
    - El sistema debe generar alertas si algún sensor detecta valores fuera de rango predefinido.
