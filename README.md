@@ -8,7 +8,7 @@ El monitoreo de la calidad del agua es clave para asegurar la sostenibilidad de 
 - Permitir la recolección de datos en tiempo real y su transmisión a un servidor remoto para almacenamiento y análisis.
 - Facilitar la visualización de los datos recopilados, proporcionando herramientas para el análisis histórico y la toma de decisiones.
 
-### *Proposito del documento*
+### *Propósito del documento*
 El propósito de este documento es establecer las especificaciones de requisitos para el desarrollo del sistema de monitoreo de calidad del agua, asegurando que todas las partes interesadas tengan una comprensión clara de las funcionalidades, restricciones y expectativas del sistema. Este documento servirá como base para:
 - **Definir los requisitos funcionales y no funcionales** que guiarán el diseño, desarrollo y operación del sistema.
 - **Fomentar una comunicación clara** entre los desarrolladores, los usuarios finales y otros interesados.
@@ -66,7 +66,7 @@ El sistema de monitoreo de calidad del agua será una solución integral capaz d
 7. **Autodiagnóstico**
    - El sistema debe verificar periódicamente el estado de los sensores y notificar errores de conexión o mal funcionamiento.
 
-### **Requisitos No Funcionales**
+### *Requisitos No Funcionales*
 
 1. **Rendimiento**
    - El sistema debe ser capaz de procesar y enviar los datos de los sensores con un retraso máximo establecido después de la captura.
@@ -86,7 +86,8 @@ El sistema de monitoreo de calidad del agua será una solución integral capaz d
 6. **Mantenimiento**
    - Los componentes del sistema deben ser fácilmente reemplazables o actualizables.
 
-### **Pila tecnológica**
+### *Pila tecnológica*
+
 1. **Hardware**
 
 | Descripción | Modelo/Versión |
@@ -106,4 +107,3 @@ El sistema de monitoreo de calidad del agua será una solución integral capaz d
 | ------------- | -------------- |
 | Python | 3.12 |
 | Arduino Programing Language | --- |
-
